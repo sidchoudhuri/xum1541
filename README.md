@@ -12,19 +12,19 @@
 5. [OPENCBM Testing](https://github.com/sidchoudhuri/xum1541-docs/edit/main/README.md#opencbm-testing)
 6. [Uninstall](https://opencbm.trikaliotis.net/opencbm.html#toc6)
 7. [Utilities](https://opencbm.trikaliotis.net/opencbm.html#toc7)
-    - [instcbm](https://github.com/sidchoudhuri/xum1541-docs/edit/wip/README.md#instcbm-windows-only)
-    - cbmctrl
-    - cbmformat
-    - cbmforng
-    - d64copy
-    - d82copy
-    - imgcopy
-    - cbmcopy
-    - rpm1541
-    - flash
-    - morse
-    - cbmlinetester
-    - tape routines  
+    - [instcbm](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#instcbm-windows-only)
+    - [cbmctrl](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#cbmctrl)
+    - [cbmformat](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#cbmformat)
+    - [cbmforng](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#cbmforng)
+    - [d64copy](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#d64copy)
+    - [d82copy](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#d84copy)
+    - [imgcopy](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#d82copy)
+    - [cbmcopy](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#cbmcopy)
+    - [rpm1541](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#rpm1541)
+    - [flash](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#flash)
+    - [morse](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#morse)
+    - [cbmlinetester](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#cbmlinetester)
+    - [tape routines](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#tape-routines)
 9. [API](https://opencbm.trikaliotis.net/opencbm.html#toc8)
 10. [Known bugs & problems](https://opencbm.trikaliotis.net/opencbm.html#toc9)
 11. [Warnings](https://github.com/sidchoudhuri/xum1541-docs/edit/main/README.md#warnings)
