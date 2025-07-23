@@ -12,7 +12,7 @@
 5. [OPENCBM Testing](https://github.com/sidchoudhuri/xum1541-docs/edit/main/README.md#opencbm-testing)
 6. [Uninstall](https://opencbm.trikaliotis.net/opencbm.html#toc6)
 7. [Utilities](https://opencbm.trikaliotis.net/opencbm.html#toc7)
-    - [instcbm](https://github.com/sidchoudhuri/xum1541-docs/wip/README.md#instcbm-windows-only)
+    - [instcbm](https://github.com/sidchoudhuri/xum1541-docs/edit/wip/README.md#instcbm-windows-only))
     - cbmctrl
     - cbmformat
     - cbmforng
