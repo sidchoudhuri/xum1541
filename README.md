@@ -57,19 +57,19 @@ If you have come so far, you are sure that you send commands to the floppy, and 
 You can have a look at the available ```cbmctrl``` commands by issuing cbmctrl on your command line, or look at cbmctrl. For the other programs, you get help by issuing the ```--help``` option, or look at the appropriate section in utilities.
 
 ## Utilities
-- [instcbm (Windows Only)](https://opencbm.trikaliotis.net/opencbm.html#toc7.1)
+- #### [instcbm (Windows Only)](https://opencbm.trikaliotis.net/opencbm.html#toc7.1)
 
   ***```instcbm```*** is used on Windows to install the OpenCBM driver.
 
   Synopsis: ```instcbm {[global-options] [plugin] [plugin-options]}*```
   
-- [cbmctrl](https://opencbm.trikaliotis.net/opencbm.html#toc7.2)
+- #### [cbmctrl](https://opencbm.trikaliotis.net/opencbm.html#toc7.2)
 
   ***```cbmctrl```*** is used to send commands to external devices. It can control all kinds of serial CBM devices like floppy drives and printers. So far, it has been successfully tested with the disk drives 1541(-II), 1571 and a MPS-1200 printer.
 
   Synopsis: ```cbmctrl [global_options] ACTION [action_args]```
 
-- [cbmformat]((https://opencbm.trikaliotis.net/opencbm.html#toc7.3))
+- #### [cbmformat]((https://opencbm.trikaliotis.net/opencbm.html#toc7.3))
 
   ***```cbmformat```*** is a fast low-level disk formatter for the 1541 and compatible devices (1570, 1571, third-party clones). A 1581 drive is not supported.
 
@@ -77,48 +77,66 @@ You can have a look at the available ```cbmctrl``` commands by issuing cbmctrl o
 
   Synopsis: ```cbmformat [OPTION]... DRIVE# NAME,ID```
   
-- [cbmforng](https://opencbm.trikaliotis.net/opencbm.html#toc7.4)
+- #### [cbmforng](https://opencbm.trikaliotis.net/opencbm.html#toc7.4)
 
   ***```cbmforng```*** is a fast and reliable low-level disk formatter for the 1541 and compatible devices (1570, 1571, third-party clones). It was based on cbmformat and is designed to become the designated successor to cbmformat, therefore its name: CBM-Formatter, the Next Generation.
 
   ***```cbmforng```*** does not support a 1581 drive.
 
-  Because this is the first official release of cbmforng and because it was not used in the field by a wider user group, it still contains additional measurement routines and informational output after the formatting process was done. When cbmforng prooved its matureness and got back some features currently missing (progress bar), it will replace cbmformat.
-
-  To date cbmforng should be considered as the more reliable formatter of both; whenever you should encounter any difficulties with cbmformat, go for cbmforng. If you like additional informational messages like e.g. the RPM value each formatted track was measured, then cbmforng is the tool you want to use. Your feedback helps us to decide, if this additional output which was needed for developing may find its way into future releases.
-
   Synopsis: ```cbmforng [OPTION]... DRIVE# NAME,ID```
 
-- [d64copy](https://opencbm.trikaliotis.net/opencbm.html#toc7.5)
+- #### [d64copy](https://opencbm.trikaliotis.net/opencbm.html#toc7.5)
 
-  ***```d64copy```*** is a fast disk image transfer (both read and write) program for the 1541 and compatible devices (1570, 1571, third-party clones). A 1581 drive is not supported! Maximum transfer speed is achieved by custom drive- and transfer-routines based on the Star Commander ((C) Joe Forster/STA) routines.
-
-  See also d82copy and imgcopy.
+  ***```d64copy```*** is a fast disk image transfer (both read and write) program for the 1541 and compatible devices (1570, 1571, third-party clones).
 
   Synopsis: ```d64copy [OPTION]... SOURCE TARGET```
 
-- [d82copy](https://opencbm.trikaliotis.net/opencbm.html#toc7.6)
+- #### [d82copy](https://opencbm.trikaliotis.net/opencbm.html#toc7.6)
 
   ***```d82copy```*** is a fast disk image transfer (both read and write) program for the 8050, 8250 and SFD 1001.
 
-  See also d64copy and imgcopy.
-
   Synopsis: ```d82copy [OPTION]... SOURCE TARGET```
   
-- [imgcopy](https://opencbm.trikaliotis.net/opencbm.html#toc7.7)
+- #### [imgcopy](https://opencbm.trikaliotis.net/opencbm.html#toc7.7)
 
-- [cbmcopy](https://opencbm.trikaliotis.net/opencbm.html#toc7.8)
+    ***```imgcopy```*** is a fast disk image transfer (both read and write) program for various CBM disk drives, namely, VIC 1540, 1541, 1570, 1571, 1581, 2031, 2040, 3040, 4031, 4040, 8050, 8250, and SFD 1001.
 
-- [rpm1541](https://opencbm.trikaliotis.net/opencbm.html#toc7.9)
--
-- [flash](https://opencbm.trikaliotis.net/opencbm.html#toc7.10)
--
-- [morse](https://opencbm.trikaliotis.net/opencbm.html#toc7.11)
--
-- [cbmlinetester](https://opencbm.trikaliotis.net/opencbm.html#toc7.12)
--
-- [tape routines](https://opencbm.trikaliotis.net/opencbm.html#toc7.13)
+    Synopsis: ```imgcopy [OPTION]... SOURCE TARGET```
 
+- #### [cbmcopy](https://opencbm.trikaliotis.net/opencbm.html#toc7.8)
+
+    ***```cbmcopy```*** is a fast file transfer program for various disk drives, in particular the 1541, 1570, 1571 and 1581 devices.
+  
+    Synopsis: ```cbmcopy [OPTION]... DEVICE# FILE...```
+
+- #### [rpm1541](https://opencbm.trikaliotis.net/opencbm.html#toc7.9)
+
+    ***```rpm1541```*** is a demo program. It finds out the rotation speed (in rounds per minute, rpm) of the drive motor. rpm1541 supports a 1541, 1570 or 1571 drive. A 1581 drive is not supported.
+
+    Synopsis: ```rpm1541 [device]```
+
+- #### [flash](https://opencbm.trikaliotis.net/opencbm.html#toc7.10)
+
+    ***```flash```*** is a demo program. It flashes the drive LED. flash works with 1541, 1570 or 1571 drives. A 1581 drive is not supported.
+
+    Synopsis: ```flash [device]```
+  
+- #### [morse](https://opencbm.trikaliotis.net/opencbm.html#toc7.11)
+    
+    ***```morse```*** is a demo program. It uses the drive LED to output a text in morse code. morse works with 1541, 1570 or 1571 drives. A 1581 drive is not supported.
+
+    Synopsis: ```morse [device]```
+  
+- #### [cbmlinetester](https://opencbm.trikaliotis.net/opencbm.html#toc7.12)
+
+    ***```cbmlinetester```*** can be used for debugging purposes. You can use it to test and check if the IEC lines react on actions of the PC.
+
+    Synopsis: ```cbmlinetester [OPTION]```
+  
+- #### [tape routines](https://opencbm.trikaliotis.net/opencbm.html#toc7.13)
+
+    For Windows, special tape routines are avaiblel for use with the ZoomFloppy cable. Currently, the only documentation for this can be found in the source tarball at opencbm/tape/.
+  
 ## Warnings
 You should be careful when operating the adapters, in order to prevent any damage to your drive or your adapter. The following general rules apply to all of the XA1541, the XM1541, the XU1541 and the XUM1541 (ZoomFloppy) devices, unless specified otherwise.
 
