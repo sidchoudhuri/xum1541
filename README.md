@@ -1,11 +1,13 @@
 # xum1541
 ## XUM1541 Docs
 
-### Installing OpenCBM on macOS via HomeBrew
-```brew install opencbm```
-### Installing Nibtools on macOS via HomeBrew
-Nibtools is no longer hosted in a public SVN. [hitorisensi has graciously hosted a homebrew version](https://www.lemon64.com/forum/viewtopic.php?p=1023828#p1023828).
-```brew install hitorisensei/homebrew-taps/nibtools```
+- ### Installing OpenCBM on macOS via HomeBrew
+      brew install opencbm
+  
+- ### Installing Nibtools on macOS via HomeBrew
+    Nibtools is no longer hosted in a public SVN. So, all MacPorts installation instructions are broken. [hitorisensi has graciously hosted a homebrew version](https://www.lemon64.com/forum/viewtopic.php?p=1023828#p1023828) [here](https://github.com/HitoriSensei/homebrew-taps).
+
+      brew install hitorisensei/homebrew-taps/nibtools
 
 ### [Windows Docs](https://github.com/sidchoudhuri/xum1541-docs/tree/main/windows#readme)
 ### [macOS Docs](https://github.com/sidchoudhuri/xum1541-docs/tree/main/macos#readme)
